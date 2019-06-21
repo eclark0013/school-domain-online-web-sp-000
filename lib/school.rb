@@ -25,5 +25,5 @@ class School
     end
     @roster.sort.to_h
   end
-  
+
 end
