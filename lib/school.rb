@@ -14,4 +14,12 @@ class School
       @roster[grade]<<name
     end
   end
+
+  def grade
+    @roster[grade]
+  end
+
+  def sort
+    @roster.sort
+  end
 end
