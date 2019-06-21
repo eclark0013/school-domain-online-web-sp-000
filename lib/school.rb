@@ -20,8 +20,8 @@ class School
   end
 
   def sort
-    @roster.transform_values do |value|
-      value.sort
+    @roster.each do |value|
+      value.sort!
     end
     @roster.sort.to_h
   end
